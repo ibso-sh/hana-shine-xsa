@@ -246,7 +246,7 @@ resources:
  
   - name: uaa 
     properties: 
-      url: "https://<hostname>:3##32/uaa-security"
+      url: "https://pvgl34662363a:30032/uaa-security"#"https://<hostname>:3##32/uaa-security"
       
   - name: sapui5-provider
     type: org.cloudfoundry.managed-service
@@ -262,5 +262,5 @@ resources:
       
   - name: controller
     properties:
-      url: 'https://<hostname>:3##30'
+      url: 'https://pvgl34662363a:30030'
   
